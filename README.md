@@ -19,6 +19,18 @@ I made this repository because a map can look fine in Studio and still fail when
 - `data/bug-log.csv`
 - `data/test-cases.csv`
 
+## Screenshots from the test pass
+
+These are raw captures from the map review. I kept the surrounding geometry visible because it helps show why a route or placement problem matters during normal play.
+
+![Map navigation overview](docs/images/map-navigation-overview.png)
+
+More examples are included in the detailed bug reports:
+
+- Blocked and misaligned ladder routes
+- A bridge or elevated route that does not connect cleanly
+- Props clipping into stairs or nearby structures
+
 ## How I handled the work
 
 I tested from the player's point of view, repeated each problem, and separated the expected result from what actually happened. I ranked severity by how much the issue affected normal play.
@@ -38,4 +50,4 @@ I also learned that a useful bug report should make the next step clear. The dev
 
 ## Limitations
 
-This is a cleaned portfolio version of my testing notes. It does not include private production code or game files. I plan to add before-and-after screenshots from a stable build later.
+This is a cleaned portfolio version of my testing notes. It does not include private production code or game files. The screenshots show issues from a development build, so they are evidence of the test pass rather than final promotional images. I plan to add before-and-after comparisons after the related fixes are verified.
