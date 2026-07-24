@@ -23,7 +23,7 @@ I made this repository because a map can look fine in Studio and still fail when
 
 These are raw captures from the map review. I kept the surrounding geometry visible because it helps show why a route or placement problem matters during normal play.
 
-![Roblox QA screenshot](docs/images/Screenshot2026-07-24010242.png)
+![Roblox map screenshot](docs/images/Screenshot2026-07-24010242.png)
 
 More examples are included in the detailed bug reports:
 
