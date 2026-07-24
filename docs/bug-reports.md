@@ -5,7 +5,8 @@
 **Area:** Four Towers  
 **Severity:** High
 
-**Steps**
+### Steps
+
 1. Walk to the ladder leading to the upper level.
 2. Climb near the top.
 3. Try to step onto the platform.
@@ -13,7 +14,9 @@
 **Expected:** The player reaches the platform without getting stuck.  
 **Actual:** The character is blocked by overlapping geometry near the top.
 
-![Blocked and misaligned ladder route](images/bug-001-ladder-route.jpg)
+### Evidence
+
+![Blocked and misaligned ladder route](images/bug-001-ladder-route.png)
 
 **Regression check:** Test climbing up and down with different avatar sizes.
 
@@ -24,7 +27,8 @@
 **Area:** Neon Transit Hub  
 **Severity:** High
 
-**Steps**
+### Steps
+
 1. Enter the elevated route.
 2. Walk across the bridge at normal speed.
 3. Approach the far landing.
@@ -32,7 +36,9 @@
 **Expected:** The bridge meets the landing with a continuous surface.  
 **Actual:** A gap or height mismatch forces a jump or can cause the player to fall.
 
-![Disconnected elevated route](images/bug-002-disconnected-route.jpg)
+### Evidence
+
+![Disconnected elevated route](images/bug-002-disconnected-route.png)
 
 **Regression check:** Cross in both directions without jumping and test the left, center, and right side.
 
@@ -43,7 +49,8 @@
 **Area:** Disaster systems  
 **Severity:** Critical
 
-**Steps**
+### Steps
+
 1. Trigger flood.
 2. Trigger ground-floor lava before the flood state fully clears.
 3. Watch the hazard level and damage behavior.
@@ -60,7 +67,8 @@
 **Area:** Multiple maps  
 **Severity:** Medium
 
-**Steps**
+### Steps
+
 1. Load a generated map.
 2. Inspect props near stairs, walls, and routes.
 3. Walk through the area.
@@ -68,9 +76,19 @@
 **Expected:** Props sit on a valid surface and do not block movement.  
 **Actual:** Some props clip into structures, float, or block routes.
 
-![Prop clipping into stairs](images/bug-004-prop-clipping-stairs.jpg)
+### Evidence
 
-![Object placement issue near a route](images/bug-004-object-placement.jpg)
+#### Prop clipping into stairs
+
+![Prop clipping into stairs](images/bug-004-prop-clipping-stairs.png)
+
+#### Object placement issue near a route
+
+![Object placement issue near a route](images/bug-004-object-placement.png)
+
+#### Object partially inside a wall
+
+![Object partially inside a wall](images/bug-005-wall-clipping.png)
 
 **Regression check:** Run placement validation and manually inspect every prop near a player path.
 
@@ -81,7 +99,8 @@
 **Area:** Crusher disaster  
 **Severity:** High
 
-**Steps**
+### Steps
+
 1. Run the crusher on a multi-level structure.
 2. Watch it reach the roof.
 3. Continue observing after contact.
@@ -98,7 +117,8 @@
 **Area:** User interface  
 **Severity:** Medium
 
-**Steps**
+### Steps
+
 1. Use a phone-size emulator.
 2. Trigger a disaster with a long name.
 3. Observe the warning card and timer.
@@ -115,7 +135,8 @@
 **Area:** Map placement  
 **Severity:** High
 
-**Steps**
+### Steps
+
 1. Load each map with generator placement enabled.
 2. Check the floor, wall clearance, and route access.
 3. Try to interact with the generator.
@@ -132,7 +153,8 @@
 **Area:** Flood disaster  
 **Severity:** High
 
-**Steps**
+### Steps
+
 1. Run flood to completion.
 2. Wait for the water to lower.
 3. Continue the round.
