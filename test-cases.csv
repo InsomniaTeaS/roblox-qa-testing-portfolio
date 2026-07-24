@@ -1,9 +1,0 @@
-Bug ID,Area,Category,Title,Severity,Status
-BUG-001,Four Towers,Navigation,Ladder blocked by upper platform,High,Documented
-BUG-002,Neon Transit Hub,Navigation,Bridge does not fully connect,High,Documented
-BUG-003,Disaster Systems,System Interaction,Flood and lava conflict,Critical,Documented
-BUG-004,Multiple Maps,Object Placement,Props overlap or float,Medium,Documented
-BUG-005,Crusher Disaster,Physics,Crusher passes through roof,High,Documented
-BUG-006,UI,Responsive Layout,Warning text is cramped,Medium,Documented
-BUG-007,Multiple Maps,Object Placement,Generator placement is impractical,High,Documented
-BUG-008,Flood Disaster,State Reset,Flood rises again after clearing,High,Documented

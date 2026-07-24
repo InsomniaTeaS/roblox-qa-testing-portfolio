@@ -1,9 +1,0 @@
-Test Case ID,Title,Steps,Expected Result,Status
-TC-001,Climb Four Towers ladder,Climb and step onto platform,Player reaches platform without collision,Pending
-TC-002,Cross Neon Transit bridge,Walk across in both directions,Player crosses without jumping,Pending
-TC-003,Flood then lava,"Trigger flood, then lava",Second hazard is blocked or first clears safely,Pending
-TC-004,Generated prop clearance,Inspect and walk around placed props,"No floating, clipping, or blocked route",Pending
-TC-005,Crusher roof collision,Run crusher against multi-level structure,Crusher stops at intended roof,Pending
-TC-006,Mobile warning card,Trigger longest warning name,Text and timer remain readable,Pending
-TC-007,Generator placement,Inspect and approach generator,Generator is stable and reachable,Pending
-TC-008,Flood reset,Run flood to completion and wait,Water stays cleared,Pending

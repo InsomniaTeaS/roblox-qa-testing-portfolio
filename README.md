@@ -23,7 +23,7 @@ I made this repository because a map can look fine in Studio and still fail when
 
 These are raw captures from the map review. I kept the surrounding geometry visible because it helps show why a route or placement problem matters during normal play.
 
-![Map navigation overview](docs/images/map-navigation-overview.png)
+![Map navigation overview](docs/images/map-navigation-overview.jpg)
 
 More examples are included in the detailed bug reports:
 

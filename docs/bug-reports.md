@@ -13,7 +13,7 @@
 **Expected:** The player reaches the platform without getting stuck.  
 **Actual:** The character is blocked by overlapping geometry near the top.
 
-![Blocked and misaligned ladder route](images/bug-001-ladder-route.png)
+![Blocked and misaligned ladder route](images/bug-001-ladder-route.jpg)
 
 **Regression check:** Test climbing up and down with different avatar sizes.
 
@@ -32,7 +32,7 @@
 **Expected:** The bridge meets the landing with a continuous surface.  
 **Actual:** A gap or height mismatch forces a jump or can cause the player to fall.
 
-![Disconnected elevated route](images/bug-002-disconnected-route.png)
+![Disconnected elevated route](images/bug-002-disconnected-route.jpg)
 
 **Regression check:** Cross in both directions without jumping and test the left, center, and right side.
 
@@ -68,9 +68,9 @@
 **Expected:** Props sit on a valid surface and do not block movement.  
 **Actual:** Some props clip into structures, float, or block routes.
 
-![Prop clipping into stairs](images/bug-004-prop-clipping-stairs.png)
+![Prop clipping into stairs](images/bug-004-prop-clipping-stairs.jpg)
 
-![Object placement issue near a route](images/bug-004-object-placement.png)
+![Object placement issue near a route](images/bug-004-object-placement.jpg)
 
 **Regression check:** Run placement validation and manually inspect every prop near a player path.
 
